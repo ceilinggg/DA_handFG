@@ -1,10 +1,10 @@
 import unittest
-import scrapytest as prog
+import scrapyProj as prog
 
-class TestMyProgram(unittest.TestCase) :
+class TestScrapy(unittest.TestCase) :
 
-    def test_scrapy (self) :
-        vios = prog.NewSpider()
+    def test_request (self) :
+
 
 if __name__ == '__main__':
     unittest.main()
